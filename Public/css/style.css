@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .row {
+    width: 100%;
+  
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .logo {
+    margin: 9px 18px 9px 0px;
+  }
+  
+  .mt-4 {
+    margin-top: 0.5rem;
+  }
+  .navbar-nav {
+    margin-left: 150px;
+    justify-content: space-between;
+  }
+  .navbar-nav a {
+    color: rgba(2, 3, 1, 0.765);
+  }
+  .req  {
+    margin-top: 10px 10px;
+    padding: 5px 30px;
+    border-radius: 11px;
+    height: 35px;
+    margin-left: 40px;
+    font-size: small;
+    font-weight: 500;
+    background-color: transparent;
+    color: navy;
+    text-align: center;
+  
+    border: 1px solid;
+  }
+  
+  .join{
+    margin: 10px 10px;
+    padding: 5px 30px;
+    margin-left: 30px;
+    height: 35px;
+  
+    font-size: small;
+    border-radius: 11px;
+    background-color: navy;
+  }
+  .join1 {
+    margin: 10px 10px;
+    padding: 5px 30px;
+    margin-left: 30px;
+    height: 35px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    font-size: small;
+    border-radius: 11px;
+    background-color: navy;
+  }
+  .hero-banner {
+    margin-bottom: -230px;
+    position: relative;
+    height: 140vh;
+    width: 100%;
+    background: url("/img/Figma.png") center/cover no-repeat;
+    /* background: url("/Public/img/Figma.png") center/cover no-repeat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+  }
+  
+  
+  .hero-banner p {
+    color: black;
+    margin-left: 57px;
+    position: absolute;
+    top: 33%;
+    padding-right: 50%;
+  
+  }
+  .play {
+    border-radius: 50%;
+    background-color:aliceblue;
+    padding: 10px;
+    position: absolute;
+    bottom: 270px;
+    left: 320px;
+  }
+  .demo {
+    position: absolute;
+    bottom: 280px;
+    left: 360px;
+    margin-left: 20px;
+  }
+  
+  .hero-heading {
+    font-weight: 500;
+    position: absolute;
+    top: 150px;
+    left: 52px;
+  }
+  
+  .text-where {
+    font-weight: 650;
+  }
+  
+  .py-5 {
+    padding-top: 4rem !important;
+    padding-bottom: 3rem !important;
+    background-color: rgb(34, 34, 93);
+  }
+  .py-5,
+  h5,
+  p,
+  ul li a {
+    color: white;
+    font-size: small;
+  }
+  
+  .social a i {
+    position: relative;
+    right: 10px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+  .social .fa-brands {
+    color: rgb(34, 34, 93);
+  }
+  .flex-column .p-0 {
+    padding: 0 !important;
+    color: white;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+      inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  }
+  
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+  
+  .bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+  }
+  
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+  
+  .bd-mode-toggle {
+    z-index: 1500;
+  }
+  
+  .bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+  }
+  
+  .footer {
+    position: relative;
+    top: 300px;
+    background-color: rgb(34, 34, 93);
+  }
+  .para p {
+    line-height: 2;
+  }
+  
+  .Check {
+    position: absolute;
+    top: 44rem;
+    left: 50px;
+    margin: 40px 0px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 50px 35px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  
+  .col-md-3 {
+    flex: 1;
+    position: relative;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 18px;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: rgb(34, 34, 93);
+    color: white;
+    border: none;
+    border-radius: 5px !important;
+    padding: 13px 58px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    height: 59px;
+  }
+  input::placeholder::before {
+    content: "\f3c5";
+    font-family: "Font Awesome 6 Free";
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  
+  /* You tube Pop up css  */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    position: relative;
+    width: 60% !important;
+    height: 60vh;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .inline {
+    max-width: 400px;
+    margin: auto;
+  }
+  .input-icons i {
+    position: absolute;
+  }
+  
+  .input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    padding: 10px;
+    min-width: 40px;
+  }
+  
