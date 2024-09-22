@@ -1,0 +1,187 @@
+
+
+
+@media only screen and (max-width:1200px) and (min-width:1001px) {
+
+    .hero-heading{
+        font-weight: 400;
+        font-size: 25px;
+        position: absolute;
+        top: 128px;
+        left: 25px;
+    }
+    
+  
+    .hero-banner {
+ 
+       
+        position: relative;
+       height: 200vh;
+        width: 100%; 
+        background: url("/img/Figma.png") center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       background-color: #f8f9fa;
+         
+      }
+      
+      .hero-banner p{
+        color: black;
+        font-size: 12px;
+        position: absolute;
+        top:198px;
+      
+        left:23px;
+        text-align: left;
+        letter-spacing:0px;
+      }
+   
+   
+   
+    .join1{
+        margin: 10px 10px;
+        padding: 5px 30px;
+        margin-left: 30px;
+        height: 35px;
+        position: relative;
+        top:162px;
+        left: 62px;
+        font-size: small;
+        border-radius: 11px;
+        background-color: navy;
+      
+      }
+    
+    
+    .play{
+        border-radius: 50%;
+        background-color: wheat ;
+        padding: 10px;
+        position: absolute;
+        bottom:16px;
+        left: 234px;
+     
+      }
+      .demo  {
+        position: absolute;
+        bottom:22px;
+        left: 268px;
+        margin-left:20px;
+      }
+
+}
+
+@media only screen and (max-width:1000px) and (min-width:600px) {
+    
+
+
+    .hero-heading{
+        font-weight: 400;
+        font-size: 25px;
+        position: absolute;
+        top: 168px;
+        left: 10px;
+    }
+    
+  
+    .hero-banner {
+ 
+       
+        position: relative;
+       height: 285vh;
+        width: 95%; 
+        background: url("/img/Figma.png") center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       background-color: #f8f9fa;
+         
+      }
+      
+      .hero-banner p{
+        color: black;
+        font-size: 12px;
+        margin-left: 0px;
+        position: absolute;
+        top:241px;
+        left:11px;
+        vertical-align: bottom;
+        text-align: left;
+        letter-spacing:0px;
+      }
+   
+   
+   
+    .join1{
+        margin: 10px 10px;
+        padding: 5px 30px;
+        margin-left: 30px;
+        height: 35px;
+        position: relative;
+        top:162px;
+        left: 62px;
+        font-size: small;
+        border-radius: 11px;
+        background-color: navy;
+      
+      }
+    
+    
+    .play{
+        border-radius: 50%;
+        background-color: wheat ;
+        padding: 10px;
+        position: relative;
+        bottom:-162px;
+        left: 65px;
+     
+      }
+      .demo  {
+        position: relative;
+        bottom:-162px;
+        left: 55px;
+        margin-left:20px;
+      }
+
+
+
+      .Check {
+        position: absolute;
+        top: 41.75rem;
+        left: 24px;
+        margin: 40px 0px;
+      
+        margin-top: 20px;
+        background-color: #f8f9fa;
+        padding: 50px 35px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-around;
+      }
+
+      .py-5,
+h5,
+p,
+ul li a {
+  color: white;
+  font-size: small;
+}
+
+.social a i {
+  position: relative;
+  right: 1px;
+  padding: 5px;
+  font-size: 15px;
+  margin: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+}
+
+
+
